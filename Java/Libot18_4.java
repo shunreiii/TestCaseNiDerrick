@@ -12,7 +12,7 @@ public class Libot18_4
 
         double q, a, p, e, c, q1, a1, p1, e1, c1, fg;
 
-        System.out.println("Quiz                    :   " );
+        System.out.print("Quiz                    :   " );
         q = inp.nextDouble();
         q1 = q * .20;
 
@@ -35,7 +35,7 @@ public class Libot18_4
         System.out.println("---------------------------------------------------------------------------" );
 
         fg = q1 + a1 + p1 + e1 + c1;
-        System.out.println("Final Grade             :   " + tdc.DecimalFormat(fg));
+        System.out.println("Final Grade             :   " + tdc.format(fg));
 
         if (fg >=75)
         {
