@@ -35,7 +35,7 @@ public class Libot18_4
         System.out.println("---------------------------------------------------------------------------" );
 
         fg = q1 + a1 + p1 + e1 + c1;
-        System.out.println("Final Grade             :   " + twodec.DecimalFormat(fg));
+        System.out.println("Final Grade             :   " + tdc.DecimalFormat(fg));
 
         if (fg >=75)
         {
