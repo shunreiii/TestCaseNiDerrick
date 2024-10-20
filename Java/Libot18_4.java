@@ -42,7 +42,7 @@ public class Libot18_4
             System.out.println("Remarks               :   PASSED");
         }
 
-        else if (fg <75)
+        else (fg <75)
         {
             System.out.println("Remarks               :   FAILED");
         }
