@@ -13,23 +13,23 @@ public class Libot18_4
         double q, a, p, e, c, q1, a1, p1, e1, c1, fg;
 
         System.out.println("Quiz                    :   " );
-        q = inp.nextdouble();
+        q = inp.nextDouble();
         q1 = q * .20;
 
         System.out.println("Activity                :   " );
-        a = inp.nextdouble();
+        a = inp.nextDouble();
         a1 = a * .15;
 
         System.out.println("Project                 :   " );
-        p = inp.nextdouble();
+        p = inp.nextDouble();
         p1 = p * .25;
 
         System.out.println("Exam                    :   " );
-        e = inp.nextdouble();
+        e = inp.nextDouble();
         e1 = e * .30;
 
         System.out.println("Class Standing          :   " );
-        c = inp.nextdouble();
+        c = inp.nextDouble();
         c1 = c * .10;
 
         System.out.println("---------------------------------------------------------------------------" );
